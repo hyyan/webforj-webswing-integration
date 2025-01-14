@@ -1,6 +1,6 @@
 # webforJ + Webswing 
 
-## webforj-webswing-integration
+## 1. webforj-webswing-integration
 
 `webforj-webswing-integration` is a webforj addon that introduces the `WebswingConnector` component. 
 
@@ -10,7 +10,7 @@ First, build and install the addon in your Maven local repository:
 mvn clean install
 ```
 
-### webforj-swing-app
+### 2. webforj-swing-app
 
 A simple Java Swing application that features a customer table. The app uses the Webswing API to send and receive browser actions. 
 For more information, see the [Java API documentation](https://www.webswing.org/docs/24.2/integrate/api).
@@ -29,7 +29,7 @@ mvn clean package
    - Class Path: `*.jar`
    - Main class: `com.webforj.swingapp.Application`
 
-### webforj-webswing-integration-demo
+### 3. webforj-webswing-integration-demo
 
 `webforj-webswing-integration-demo` is a simple webforj app that uses the `WebswingConnector` component.
 
