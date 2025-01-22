@@ -61,10 +61,12 @@ public class CustomerTable {
           for (int i = 0; i < customers.size(); i++) {
             if (customers.get(i).getId() == customer.getId()) {
               customers.set(i, customer);
+              refresh();
+              // reselect the updated row
+              table.setRowSelectionInterval(i, i);
               break;
             }
           }
-          refresh();
           break;
         default:
           break;
